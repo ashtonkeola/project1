@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ashton Keola's resume</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ashton Keola</h1>
+    </header>
+    <nav>
+      akeola@hawk.iit.edu
+    </nav>
+    <article>
+      <header>
+        <h2>Education</h2>
+      </header>
+      <section>
+        <header>
+          <h3>University of Illinois at Urbana-Champaign</h3>
+        </header>
+        <ol>
+          <li>Bachelor of Science in Mathematics</li>
+          <li>Concentration: Operation Research</li>
+          <li>Minor in Informatics</li>
+          <li>August 2011 - May 2015</li>
+          <li>Illinois Promise Scholar</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+          <h3>Illinois Institute of Technology</h3>
+        </header>
+        <ol>
+          <li>Major:Information Technology and Management</li>
+          <li>Concentration: Data Management</li>
+        </ol>
+      </section>
+    </article>
+    <article>
+      <header>
+        <h2>Work Experience</h2>
+      </header>
+      <section>
+        <header>
+          <h3>Barnes and Noble</h3>
+        </header>
+        <ol>
+          <li>Respond to customer's concern and improve customer's satisfaction</li>
+          <li>Identify customer's need and provide recommendation with product knowledge</li>
+          <li>Cashiering and upselling</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+          <h3>Kumon</h3>
+        </header>
+        <ol>
+          <li>Observe and guide students through math and reading worksheets</li>
+          <li>Grade homeowork</li>
+          <li>Organize and assign student's homework</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+          <h3>America Reads/America Counts</h3>
+        </header>
+        <ol>
+          <li>Focus on helping children read independently</li>
+          <li>Improve children's mathematical and problem solving skills</li>
+          <li>Demonstrate leadership skills by conducting classroom activities and leading recreational excercise</li>
+        </ol>
+      </section>
+    </article>
+    <article>
+      <header>
+        <h2>Volunteer and Leadership Experience</h2>
+      </header>
+      <section>
+        <header>
+          <h3>Illinois Promise Student Organization</h3>
+        </header>
+        <ol>
+          <li>Help coordinate and promote social events for the RSO and helped plan the annual BBQ event</li>
+          <li>Organize and facilitate weekly committee meetings to develop new ideas for future events</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+          <h3>MATRIX Math Club</h3>
+        </header>
+        <ol>
+          <li>Create a stronger relationship with math faculty and students taking math courses</li>
+          <li>Attended round tables and social events with math faculties</li>
+        </ol>
+      </section>
+      <section>
+        <header>
+          <h3>State Math Contest</h3>
+        </header>
+        <ol>
+          <li>Help facilitate high school state math competition</li>
+        </ol>
+      </section>
+    </article>
+    <article>
+      <header>
+        <h2>Skills</h2>
+      </header>
+      <ol>
+        <li>Mathematic Skills: Numerical Solution of Linear System, Real Analysis, and Probability Theory</li>
+        <li>Computer Program: Adobe IndDesign and Microsoft Office Suite</li>
+        <li>Computer Language: Python, Java, and SQL</li>
+      </ol>
+    </article>
+  </body>
+</html>
