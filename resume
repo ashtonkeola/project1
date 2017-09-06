@@ -10,8 +10,15 @@
       <h1>Ashton Keola</h1>
     </header>
     <nav>
-      akeola@hawk.iit.edu
+      <ul>
+        <li><a href="MyInformation">About Me</a></li>
+        <li><a href="Blog">Blog</a></li>
+      </ul>
     </nav>
+    <article>
+      <ul>
+      akeola@hawk.iit.edu
+    </ul>
     <article>
       <header>
         <h2>Education</h2>
