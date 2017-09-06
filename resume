@@ -20,22 +20,22 @@
         <header>
           <h3>University of Illinois at Urbana-Champaign</h3>
         </header>
-        <ol>
+        <ul>
           <li>Bachelor of Science in Mathematics</li>
           <li>Concentration: Operation Research</li>
           <li>Minor in Informatics</li>
           <li>August 2011 - May 2015</li>
           <li>Illinois Promise Scholar</li>
-        </ol>
+        </ul>
       </section>
       <section>
         <header>
           <h3>Illinois Institute of Technology</h3>
         </header>
-        <ol>
+        <ul>
           <li>Major:Information Technology and Management</li>
           <li>Concentration: Data Management</li>
-        </ol>
+        </ul>
       </section>
     </article>
     <article>
@@ -46,31 +46,31 @@
         <header>
           <h3>Barnes and Noble</h3>
         </header>
-        <ol>
+        <ul>
           <li>Respond to customer's concern and improve customer's satisfaction</li>
           <li>Identify customer's need and provide recommendation with product knowledge</li>
           <li>Cashiering and upselling</li>
-        </ol>
+        </ul>
       </section>
       <section>
         <header>
           <h3>Kumon</h3>
         </header>
-        <ol>
+        <ul>
           <li>Observe and guide students through math and reading worksheets</li>
           <li>Grade homeowork</li>
           <li>Organize and assign student's homework</li>
-        </ol>
+        </ul>
       </section>
       <section>
         <header>
           <h3>America Reads/America Counts</h3>
         </header>
-        <ol>
+        <ul>
           <li>Focus on helping children read independently</li>
           <li>Improve children's mathematical and problem solving skills</li>
           <li>Demonstrate leadership skills by conducting classroom activities and leading recreational excercise</li>
-        </ol>
+        </ul>
       </section>
     </article>
     <article>
@@ -81,38 +81,38 @@
         <header>
           <h3>Illinois Promise Student Organization</h3>
         </header>
-        <ol>
+        <ul>
           <li>Help coordinate and promote social events for the RSO and helped plan the annual BBQ event</li>
           <li>Organize and facilitate weekly committee meetings to develop new ideas for future events</li>
-        </ol>
+        </ul>
       </section>
       <section>
         <header>
           <h3>MATRIX Math Club</h3>
         </header>
-        <ol>
+        <ul>
           <li>Create a stronger relationship with math faculty and students taking math courses</li>
           <li>Attended round tables and social events with math faculties</li>
-        </ol>
+        </ul>
       </section>
       <section>
         <header>
           <h3>State Math Contest</h3>
         </header>
-        <ol>
+        <ul>
           <li>Help facilitate high school state math competition</li>
-        </ol>
+        </ul>
       </section>
     </article>
     <article>
       <header>
         <h2>Skills</h2>
       </header>
-      <ol>
+      <ul>
         <li>Mathematic Skills: Numerical Solution of Linear System, Real Analysis, and Probability Theory</li>
         <li>Computer Program: Adobe IndDesign and Microsoft Office Suite</li>
         <li>Computer Language: Python, Java, and SQL</li>
-      </ol>
+      </ul>
     </article>
   </body>
 </html>
