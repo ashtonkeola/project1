@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="MyInformation">About Me</a></li>
+        <li><a href="resume">Resume</a></li>
+      </ul>
+    </nav>
+    <article>
+      <p>
+        My blog page will provide my projects and inspirations that lead me to my career goals.
+      </p>
+    </article>
+    <article>
+      <header>
+        <h2>United Way (Fall 2016)</h2>
+      </header>
+      <p>
+        I was fortunate enough to interview Theresa Merriman, the CFO of United Way of Rock Valley about data managing. United Way is a nonprofit organization that takes donations to improve the city’s education, health, and income. They have a database of donors. One of the biggest challenge right now is that their database contains records of names but no other information. One of the coworkers in charged of entering the data overlooked the requirements when adding new data. When I asked about what they do with those data, she said they just leave it alone. I also found it interesting that the database assumes that every donor is alive. Theresa commented that there are times where they contact donor but will receive complaints that the donor is deceased. (more here)
+      </p>
+    </article>
+    <article>
+      <header>
+        <h2>Illinois Promise (2011-2015)</h2>
+      </header>
+      <p>
+        I was fortunate enough to be part of Illinois Promise, an organization that fund students in order to go to the University of Illinois at Urbana-Champaign. I became a social committee. (add more later)
+      </p>
+    </article>
+  </body>
+  </html>
