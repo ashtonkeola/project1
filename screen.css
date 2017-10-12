@@ -32,28 +32,36 @@ body {
 
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 p {
-  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-bottom: 0.688em; /* 22 / 18 = 1.2222222222 */
+  padding-top: 0.688em
 }
+
 
 h1 {
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+  padding-top: 0;
   text-align: center;
 }
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777 */
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
-  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
   color: #4d8fac;
+  border-bottom: 2px dashed #b0b0b0;
+  padding-bottom: 0.344em;
+  padding-top: 0.688em;
 
 }
+
+
+
+
 #about,
 #contact,
 #intro{
@@ -104,8 +112,8 @@ audio {
 #navigation li {
   float: left;
   width: 33.3333333333%;
-  border-top: .0625em solid #b0b0b0;
-  border-bottom: .0625em solid #b0b0b0;
+  border-top: .125em solid #b0b0b0;
+  border-bottom: .125em solid #b0b0b0;
 }
 #navigation a {
   display: block;
