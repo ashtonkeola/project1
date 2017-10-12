@@ -38,7 +38,7 @@ h5,
 h6,
 p {
   padding-bottom: 0.688em; /* 22 / 18 = 1.2222222222 */
-  padding-top: 0.688em
+  padding-top: 0.688em;
 }
 
 
@@ -53,7 +53,7 @@ h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777 */
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
   color: #4d8fac;
-  border-bottom: 2px dashed #b0b0b0;
+  border-bottom: 0.0625em dashed #b0b0b0;
   padding-bottom: 0.344em;
   padding-top: 0.688em;
 
@@ -64,7 +64,7 @@ h2 {
 
 #about,
 #contact,
-#intro{
+#intro {
   padding-top: 3.688em;
 }
 
@@ -112,8 +112,8 @@ audio {
 #navigation li {
   float: left;
   width: 33.3333333333%;
-  border-top: .125em solid #b0b0b0;
-  border-bottom: .125em solid #b0b0b0;
+  border-top: 0.125em solid #b0b0b0;
+  border-bottom: 0.125em solid #b0b0b0;
 }
 #navigation a {
   display: block;
@@ -197,17 +197,3 @@ audio {
     display: flex;
   }
 }
-
-    © 2017 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
-    About
