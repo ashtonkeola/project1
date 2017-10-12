@@ -71,6 +71,7 @@ h2 {
 
 ol, ul {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-top: 0.611em;
 }
 ol {
   list-style-type: none;
