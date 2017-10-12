@@ -55,7 +55,9 @@ h2 {
   color: #4d8fac;
 
 }
-#about{
+#about,
+#contact,
+#intro{
   padding-top: 3.688em;
 }
 
