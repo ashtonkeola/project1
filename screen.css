@@ -25,7 +25,7 @@ html {
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 body {
-  padding-top: 3.667em; /* 66 / 18 = 3.667... */
+  padding-top: 1.222em; /* 66 / 18 = 3.667... */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -36,8 +36,7 @@ h1,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   padding-bottom: 0.688em; /* 22 / 18 = 1.2222222222 */
   padding-top: 0.688em;
 }
@@ -46,13 +45,10 @@ p {
 h1 {
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
-  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
-  padding-top: 0;
   text-align: center;
 }
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777 */
-  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
   color: #4d8fac;
   border-bottom: 0.0625em dashed #b0b0b0;
   padding-bottom: 0.344em;
@@ -64,33 +60,29 @@ h2 {
 
 
 #about,
-#contact,
+#contact2,
 #intro {
   padding-top: 3.688em;
-}
-
-section {
-  justify-content: space-between;
 }
 
 figcaption {
   font-size: .8em;
 }
 
-ol, ul {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+/*ol, ul {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111
   padding-top: 0.611em;
   list-style-type: none;
-}
-li ol,
+}*/
+/*li ol,
 li ul {
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111
+  padding-left: 1.222em; /* 22 / 18 = 1.2222222222
   padding-bottom: 0;
-}
-li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
-}
+}*/
+/*li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111
+}*/
 
 section {
   padding-top: 0.688em;
@@ -117,10 +109,10 @@ audio {
      relationships
 */
 
-#navigation {
+/*#navigation {
   width: 100%;
   left: 0;
-}
+}*/
 #navigation li {
   float: left;
   width: 33.3333333333%;
@@ -130,7 +122,7 @@ audio {
 #navigation a {
   display: block;
   width: 100%;
-  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-top: 0.611em; /* 11 / 18 = 0.611*/
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none;
@@ -146,7 +138,7 @@ audio {
       spacing, color, etc. etc.
 */
 
-#navigation ul,
+/*#navigation ul,*/
 #navigation li {
   list-style-type: none;
   padding-bottom: 0;
@@ -179,6 +171,7 @@ audio {
 
   #section1 {
     display: flex;
+    flex-direction: row;
     flex-flow: row-reverse;
   }
 
@@ -190,8 +183,8 @@ audio {
 
   #text {
     order: 2;
-    flex-basis: 60%;
   }
+
 
 
 }
