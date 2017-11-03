@@ -103,6 +103,8 @@ audio {
   max-width: 100%;
 }
 
+
+
 /* Layout Styles */
 /*
   Hint: these tend to be
@@ -184,28 +186,35 @@ audio {
   #section3 {
     display: flex;
     flex-direction: row;
-    flex-flow: row;
+    justify-content: space-between;
   }
+
+
 
 
 
   img,
   figcaption {
-    display: block;
+    flex-basis: 30%;
     order: 1;
+    max-width: 37.5vw; /* 125 / 640 = 37.5 */
   }
 
 
   #text1,
   #text2,
   #text3 {
+    flex-basis: 50%;
     order: 2;
-    flex-basis: 80%;
+
   }
 
-  .photo img {
-    width: 40px;
+  #text1,
+  #text3 {
+    padding-right: 0;
   }
+
+
 
 
 
@@ -221,17 +230,17 @@ audio {
     Primary module: 450px;
     Secondary modul: 200px;
   */
-  body {
-    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  /*body {
+    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581%
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581%
   }
   #primary {
-    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429
     float: left;
   }
   #supporting {
-    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
-    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+    width: 28.57142857%; /* 200 / 700 = 0.2857142857
+    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143
     float: left;
   }
   #footer {
@@ -244,5 +253,5 @@ audio {
   }
   .flexbox #content {
     display: flex;
-  }
+  }*/
 }
