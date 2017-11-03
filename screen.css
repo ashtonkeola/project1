@@ -101,9 +101,12 @@ video,
 audio {
   display: block;
   max-width: 100%;
+  margin: auto;
 }
 
-
+figcaption {
+  text-align: center;
+}
 
 /* Layout Styles */
 /*
@@ -254,4 +257,6 @@ audio {
   .flexbox #content {
     display: flex;
   }*/
+
+
 }
