@@ -48,6 +48,7 @@ h1 {
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   text-align: center;
 }
+
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777 */
   color: #4d8fac;
@@ -68,22 +69,8 @@ h2 {
 
 figcaption {
   font-size: .8em;
+  padding-bottom: .8em;
 }
-
-/*ol, ul {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111
-  padding-top: 0.611em;
-  list-style-type: none;
-}*/
-/*li ol,
-li ul {
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222
-  padding-bottom: 0;
-}*/
-/*li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111
-}*/
 
 section {
   padding-top: 0.688em;
@@ -101,12 +88,9 @@ video,
 audio {
   display: block;
   max-width: 100%;
-  margin: auto;
+
 }
 
-figcaption {
-  text-align: center;
-}
 
 /* Layout Styles */
 /*
@@ -172,6 +156,8 @@ figcaption {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
   }
+
+
 }
 
 @media screen and (min-width: 640px) {
@@ -183,6 +169,9 @@ figcaption {
     padding-right: 10%; /* 44 / 375 = 11.73333333% */
     padding-left: 10%; /* 44 / 375 = 11.73333333% */
   }
+
+
+
 
   #section1,
   #section2,
