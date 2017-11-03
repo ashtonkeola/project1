@@ -20,6 +20,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Setting type with a 4:3 modular scale
   http://www.modularscale.com/?18&px&1.333
 */
+
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
@@ -68,8 +69,8 @@ h2 {
 }
 
 figcaption {
-  font-size: .8em;
-  padding-bottom: .8em;
+  font-size: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 section {
@@ -92,18 +93,6 @@ audio {
 }
 
 
-/* Layout Styles */
-/*
-  Hint: these tend to be
-  1. IDs; but also classes, sometimes
-  2. concerned with layout and spatial
-     relationships
-*/
-
-/*#navigation {
-  width: 100%;
-  left: 0;
-}*/
 
 
 
@@ -112,6 +101,8 @@ audio {
   width: 33.3333333333%;
   border-top: 0.125em solid #b0b0b0;
   border-bottom: 0.125em solid #b0b0b0;
+  list-style-type: none;
+  padding-bottom: 0;
 }
 #navigation a {
   display: block;
@@ -123,20 +114,8 @@ audio {
   color: #f3123d;
 }
 
-/* Modular Styles */
-/*
-  Repeating style patterns.
-  Hint: these tend to be:
-  1. classes and relationship selectors
-  2. concerned with adjustments to base styles,
-      spacing, color, etc. etc.
-*/
 
-/*#navigation ul,*/
-#navigation li {
-  list-style-type: none;
-  padding-bottom: 0;
-}
+
 
 
 /* State Styles */
@@ -222,17 +201,17 @@ audio {
     Primary module: 450px;
     Secondary modul: 200px;
   */
-  /*body {
-    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581%
-    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581%
+  body {
+    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
   #primary {
-    width: 64.28571429%; /* 450 / 700 = 0.6428571429
+    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
     float: left;
   }
   #supporting {
-    width: 28.57142857%; /* 200 / 700 = 0.2857142857
-    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143
+    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
+    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
     float: left;
   }
   #footer {
@@ -245,7 +224,7 @@ audio {
   }
   .flexbox #content {
     display: flex;
-  }*/
+  }
 
 
 }
