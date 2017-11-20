@@ -92,9 +92,13 @@ video,
 audio {
   display: block;
   max-width: 100%;
-
 }
 
+#homepic {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
 
 
