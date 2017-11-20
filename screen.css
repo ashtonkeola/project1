@@ -100,7 +100,9 @@ audio {
   align-items: center;
 }
 
-
+#aboutme {
+  list-style-type: none;
+}
 
 
 #navigation li {
