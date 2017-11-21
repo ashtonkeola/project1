@@ -30,6 +30,7 @@ body {
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 1.222em;
+  font-family: helvetica;
 }
 footer {
   padding-top: 1.222em; /* 66 / 18 = 3.667... */
@@ -100,9 +101,12 @@ audio {
   align-items: center;
 }
 
-#aboutme {
-  list-style-type: none;
+#homedescription {
+  padding-top: 0em;
 }
+
+
+
 
 
 #navigation li {
@@ -169,6 +173,24 @@ audio {
     justify-content: space-between;
   }
 
+  #first,
+  #second,
+  #third,
+  #fourth {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about {
+    display: flex;
+    float: left;
+  }
+
+  /* Prevents my picture from shrinking */
+  #homepicture {
+    flex-grow: 2;
+    padding-right: 3em;
+  }
 
 
 
