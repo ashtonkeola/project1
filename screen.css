@@ -30,7 +30,7 @@ body {
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 1.222em;
-  font-family: helvetica;
+  font-family: Times New Roman;
 }
 footer {
   padding-top: 1.222em; /* 66 / 18 = 3.667... */
@@ -68,7 +68,7 @@ h2 {
 /* padding for the first section of each page */
 #about,
 #contact2,
-#intro {
+#budget-planner {
   padding-top: 3.688em;
 }
 
@@ -77,7 +77,8 @@ figcaption {
   padding-bottom: 0.8em;
 }
 
-section {
+section,
+p {
   padding-top: 0.688em;
   padding-bottom: 0.688em;
 }
@@ -233,8 +234,8 @@ audio {
     Secondary modul: 200px;
   */
   body {
-    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-right: 12.44444em; /* 80 / 860 = 0.09302325581% */
+    padding-left: 12.44444em; /* 80 / 860 = 0.09302325581% */
   }
   #primary {
     width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
