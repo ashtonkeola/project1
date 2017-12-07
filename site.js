@@ -1,16 +1,19 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {whileScroll()};
-
-// Get the navbar
+// I looked up guides to help with fixing the navigation while scrolling
+// This site helped me with that: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+// Grab the navigation bar
 var navbar = document.getElementById('navigation');
 
-// Get the offset position of the navbar
+// Grab the position of the bar
 var topPosition = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// Calls the function while scrolling
+window.onscroll = function() {whileScroll();};
+
+// Fix the navigation to the top while scrolling
+// Else statement tells the navigation to stay at original space
 function whileScroll() {
   if (window.pageYOffset >= topPosition) {
-    navbar.classList.add("fixed")
+    navbar.classList.add("fixed");
   } else {
     navbar.classList.remove("fixed");
   }
