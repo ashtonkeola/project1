@@ -88,6 +88,10 @@ section ul {
   padding-left: 2em;
 }
 
+article ul {
+  padding-top: 0.688em;
+}
+
 /* Responsive Media */
 img,
 video,
@@ -128,9 +132,19 @@ audio {
   color: #f3123d;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 
+.fixed + .content {
+  padding-top: 60px;
+}
 
-
+.content {
+  padding: 16px;
+}
 
 /* State Styles */
 /*
