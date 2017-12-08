@@ -21,7 +21,7 @@ function whileScroll() {
 
 $.noConflict();
 
-// Re-introduce $ scope to self executing function
+// Slideshow jQuery
 (function($) {
 
   $(document).ready(function(){
@@ -31,7 +31,7 @@ $.noConflict();
       $('.slideshow img:gt(0)').hide();
       setInterval(function(){
         $('.slideshow :first-child').hide()
-          .next('img').fadeIn(1000)
+          .next('img').fadeIn(3000)
           .end().appendTo('.slideshow');},
       5000);
     });
