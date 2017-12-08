@@ -26,7 +26,6 @@ $.noConflict();
 
   $(document).ready(function(){
 
-    // Slide show function on main page
     $(function(){
       $('.slideshow img:gt(0)').hide();
       setInterval(function(){
